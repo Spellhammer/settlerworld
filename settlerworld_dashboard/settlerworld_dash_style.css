@@ -1,0 +1,54 @@
+#wpchat-wrapper {
+    padding: 2.5%;
+    width: 100%;
+}
+
+#wpchat-body {
+    height: 400px;
+    width: 80%;
+    float: left;
+    border: 1px solid black;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+#wpchat-user-list {
+    display: block;
+    margin-left: 80%;
+    width: 20%;
+    border: solid 1px black;
+    padding: 5px;
+    overflow: auto;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+#wpchat-user-list ul {
+    list-style-type: none;
+}
+
+#wpchat-user-list ul li:first-child {
+
+}
+
+#wpchat-input-div {
+
+}
+
+#wpchat-input {
+    width: 80%;
+    float: left;
+}
+
+#wpchat-submit {
+    margin-left: 0%;
+    width: 20%;
+    margin-top: 0px;
+}
+
+
+.horizontal-line {
+    border-bottom: solid slategrey 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
